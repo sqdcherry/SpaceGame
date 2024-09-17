@@ -13,6 +13,15 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
+                },
+                {
+                    "name": "Shoot",
+                    "type": "Button",
+                    "id": "13bc02ff-5965-4a6e-b150-67f515906c31",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -72,30 +81,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "forward",
-                    "id": "b0b22359-dfb9-4c06-bdb0-da7aac05f655",
-                    "path": "<Gamepad>/rightStick/up",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "backward",
-                    "id": "c26d217a-091d-43a5-a605-a45e992adb92",
-                    "path": "<Gamepad>/rightStick/down",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad",
-                    "action": "Movement",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
                     "name": "3D Vector",
-                    "id": "6a37cc6f-f373-4f8e-a907-e47173b1b3cb",
+                    "id": "394fce6b-266f-4be9-9234-38fd2e69af03",
                     "path": "3DVector(mode=1)",
                     "interactions": "",
                     "processors": "",
@@ -106,7 +93,7 @@
                 },
                 {
                     "name": "up",
-                    "id": "516c982e-a435-4af0-bd18-44b2dcf20266",
+                    "id": "6aa905c1-f01e-40dd-970a-84414d4cee04",
                     "path": "<Mouse>/delta/up",
                     "interactions": "",
                     "processors": "",
@@ -117,7 +104,7 @@
                 },
                 {
                     "name": "down",
-                    "id": "2e824628-eb2e-4b3b-aec1-65bf4d930a7e",
+                    "id": "bf501698-18b3-453a-9655-284f109fd016",
                     "path": "<Mouse>/delta/down",
                     "interactions": "",
                     "processors": "",
@@ -128,7 +115,7 @@
                 },
                 {
                     "name": "left",
-                    "id": "72a2180b-289b-4a98-80fc-4243885d9e41",
+                    "id": "f0a1d50f-9f04-4882-bbf3-cac28ca950af",
                     "path": "<Mouse>/delta/left",
                     "interactions": "",
                     "processors": "",
@@ -139,7 +126,7 @@
                 },
                 {
                     "name": "right",
-                    "id": "642c0226-605c-443a-94e7-15b990a2e9ec",
+                    "id": "48763958-019d-4f4e-887c-6982612a6373",
                     "path": "<Mouse>/delta/right",
                     "interactions": "",
                     "processors": "",
@@ -149,26 +136,26 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "forward",
-                    "id": "0a8d6c0d-bcb4-453d-802d-ac8fca20b010",
-                    "path": "<Mouse>/delta/up",
+                    "name": "",
+                    "id": "c8468184-fee2-45e9-a90c-75de11b3b38c",
+                    "path": "<Keyboard>/space",
                     "interactions": "",
                     "processors": "",
                     "groups": "Keyboard and mouse",
-                    "action": "Movement",
+                    "action": "Shoot",
                     "isComposite": false,
-                    "isPartOfComposite": true
+                    "isPartOfComposite": false
                 },
                 {
-                    "name": "backward",
-                    "id": "2490da7d-b83d-47ba-bae7-7c10297caa2f",
-                    "path": "<Mouse>/delta/down",
+                    "name": "",
+                    "id": "649b600c-903f-4dbe-b592-90583ab324f8",
+                    "path": "<Gamepad>/rightStick/down",
                     "interactions": "",
                     "processors": "",
-                    "groups": "Keyboard and mouse",
-                    "action": "Movement",
+                    "groups": "Gamepad",
+                    "action": "Shoot",
                     "isComposite": false,
-                    "isPartOfComposite": true
+                    "isPartOfComposite": false
                 }
             ]
         }
